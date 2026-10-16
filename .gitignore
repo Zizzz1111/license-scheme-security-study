@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Lab runtime artifacts
+examples/*.bin
+examples/*.hex
+examples/lab_*.json
+examples/*.log
+examples/dump/
+
+# Packet captures & traffic data (never commit real captures; may contain sensitive data)
+*.pcap
+*.pcapng
+*.har
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
